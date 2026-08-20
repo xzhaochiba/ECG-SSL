@@ -189,13 +189,13 @@ if __name__ == '__main__':
 
 
     # Train & Test Datasets
-    all_list_1 = find_all_suffix('../4_Dataset_Downstream/' + str(args.k_folder) + '/Tr_Stem/', '.h5')
-    all_list_2 = find_all_suffix('../4_Dataset_Downstream/' + str(args.k_folder) + '/Tr_Stem_Aug/', '.h5')
-    all_list_3 = find_all_suffix('../4_Dataset_Downstream/' + str(args.k_folder) + '/Te_Stem/', '.h5')
+    all_list_1 = find_all_suffix('../Dataset_Downstream/' + str(args.k_folder) + '/Tr_Stem/', '.h5')
+    all_list_2 = find_all_suffix('../Dataset_Downstream/' + str(args.k_folder) + '/Tr_Stem_Aug/', '.h5')
+    all_list_3 = find_all_suffix('../Dataset_Downstream/' + str(args.k_folder) + '/Te_Stem/', '.h5')
 
-    all_list_4 = find_all_suffix('../4_Dataset_Downstream/' + str(args.k_folder) + '/Tr_Takotsubo/', '.h5')
-    all_list_5 = find_all_suffix('../4_Dataset_Downstream/' + str(args.k_folder) + '/Tr_Takotsubo_Aug/', '.h5')
-    all_list_6 = find_all_suffix('../4_Dataset_Downstream/' + str(args.k_folder) + '/Te_Takotsubo/', '.h5')
+    all_list_4 = find_all_suffix('../Dataset_Downstream/' + str(args.k_folder) + '/Tr_Takotsubo/', '.h5')
+    all_list_5 = find_all_suffix('../Dataset_Downstream/' + str(args.k_folder) + '/Tr_Takotsubo_Aug/', '.h5')
+    all_list_6 = find_all_suffix('../Dataset_Downstream/' + str(args.k_folder) + '/Te_Takotsubo/', '.h5')
     
     all_list_1 = del_hidden(all_list_1)
     all_list_2 = del_hidden(all_list_2)
